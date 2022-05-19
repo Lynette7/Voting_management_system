@@ -6,7 +6,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Admin | Voting System</title>
- 	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/febcb9d18b.js" crossorigin="anonymous"></script>
 
 <?php include('./header.php'); ?>
 <?php 
@@ -41,7 +43,7 @@ header("location:index.php?page=home");
 		left:0;
 		width:60%;
 		height: calc(100%);
-		background:#00000061;
+		background: teal;
 		display: flex;
 		align-items: center;
 	}
@@ -56,6 +58,16 @@ header("location:index.php?page=home");
     border-radius: 50% 50%;
     color: #000000b3;
 }
+.login-button{
+        background: teal;
+        color: #fff;
+        cursor: pointer;
+        height: 25px;
+        width: 70px;
+        border: 5px lightskyblue;
+        border-radius: 5px;
+		
+    }
 </style>
 
 <body>
@@ -79,10 +91,10 @@ header("location:index.php?page=home");
   							<label for="password" class="control-label">Password</label>
   							<input type="password" id="password" name="password" class="form-control">
   						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
+  						<center><button class="login-button">Login</button></center>
   					</form>
   				</div>
-  			</div>
+			  </div>
   		</div>
    
 
