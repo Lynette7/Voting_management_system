@@ -10,7 +10,7 @@
     crossorigin="anonymous"/>
     <script src="https://kit.fontawesome.com/febcb9d18b.js" crossorigin="anonymous"></script>
 
-<?php include('./header.php'); ?>
+<?//php include('./header.php'); ?>
 <?php 
 session_start();
 if(isset($_SESSION['login_id']))
@@ -80,7 +80,6 @@ header("location:index.php?page=home");
   			</div>
   		</div>
   		<div id="login-right">
-  			<div class="card col-md-8">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
@@ -95,12 +94,11 @@ header("location:index.php?page=home");
   					</form>
   				</div>
 			  </div>
-  		</div>
    
 
   </main>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!--<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>-->
 
 
 </body>

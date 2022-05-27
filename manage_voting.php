@@ -63,10 +63,8 @@
 						<small><b><?php echo $description; ?></b></small>	
 					</div>
 					<hr>
-					<div class="row">
-						<div class="col-md-12">
+					<div class="newcandbutton">
 							<button class="new-candidate" type="button" id="new_opt">New Candidate</button>
-						</div>
 					</div>
 					<?php 
 					$cats = $conn->query("SELECT * FROM category_list where id in (SELECT category_id from voting_opt where voting_id = '".$_GET['id']."' )");
