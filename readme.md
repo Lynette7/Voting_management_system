@@ -1,34 +1,35 @@
 This is a project done in partial fulfillment of requirements for reception of BSc. Computer Science degree from the University of Nairobi.
+
 This is an online voting system that can be used by high schools, universities or colleges in their school elections.
 Main functionalities include:
 
 1. The voter is able to: 
 
-cast their vote successfully.
+- Cast their vote successfully.
 
-View the results of the election.
+- View the results of the election.
 
 2. The administrator is able to: 
 
-set up a full election.
+- Set up a full election by:
 
-        Describe the type of election
+        Describing the type of election
 
-        Add categories
+        Adding categories
 
-        Set maximum selections for each category
+        Setting maximum selections for each category
 
-        Add candidates for each category
+        Adding candidates for each category
 
-add voters to the system
+- Add voters to the system
 
-Add other administrators to the system
+- Add other administrators to the system
 
-Set the default election
+- Set the default election
 
-View results of previous elections
+- View results of previous elections
 
-Initiate the tallying and declaration of results
+- Initiate the tallying and declaration of results
 
 To run this project:
 1. Download it
